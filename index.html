@@ -1,0 +1,514 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Akhil Renduchintala | Portfolio</title>
+
+  <!-- Meta Tags for SEO -->
+  <meta name="description" content="Akhil Renduchintala's professional portfolio. Senior Database Engineer and Cloud Enthusiast based in Amsterdam. Specialized in MySQL, AWS, Terraform, and Automation.">
+  <meta name="keywords" content="Akhil Renduchintala, Database Engineer, DevOps, Cloud Engineer, MySQL, Terraform, AWS, GCP, Automation, Amsterdam">
+  <meta name="author" content="Akhil Renduchintala">  
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Akhil Renduchintala | Portfolio">
+  <meta property="og:description" content="Explore my work in database engineering, cloud, and automation.">
+  <meta property="og:image" content="assets/your-social-preview-image.png">
+  <meta property="og:url" content="https://yourgithubusername.github.io/your-repo/">
+  <meta property="og:type" content="website"> 
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Akhil Renduchintala | Portfolio">
+  <meta name="twitter:description" content="Explore my work in database engineering, cloud, and automation.">
+  <meta name="twitter:image" content="assets/your-social-preview-image.png">  
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <link rel="stylesheet" href="styles/global.css">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KTLEPE06WH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KTLEPE06WH');
+  </script>
+
+</head>
+
+
+<body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300">
+  <nav class="flex justify-between items-center p-4 shadow-md fixed w-full backdrop-blur-md bg-white/70 dark:bg-gray-800/80 z-50">
+    <div class="text-xl font-bold">Akhil Renduchintala</div>
+    <div class="flex items-center gap-4">
+      <a href="#about" class="hover:text-blue-500">About</a>
+      <a href="#skills" class="hover:text-blue-500">Skills</a>
+      <a href="#experience" class="hover:text-blue-500">Experience</a>
+      <a href="#projects" class="hover:text-blue-500">Projects</a>
+      <a href="#certifications" class="hover:text-blue-500">Certifications</a>
+      <a href="#contact" class="hover:text-blue-500">Contact</a>
+      <button id="theme-toggle" class="p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700">🌚</button>
+    </div>
+  </nav>
+
+<!-- Landing Page -->
+  
+  <section class="min-h-screen flex flex-col justify-center items-center text-center pt-20">
+    <h1 class="text-4xl md:text-6xl font-bold">Hey, I'm <span class="text-blue-500">Akhil Renduchintala</span></h1>
+    <p class="mt-4 text-lg md:text-2xl">Database Engineer | Cloud Enthusiast | Lifelong Learner</p>
+  </section>
+
+<!-- About Page -->
+  
+  <section id="about" class="py-16 px-8 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-8 text-gray-900 dark:text-white">About Me</h2>
+    <p class="text-lg leading-relaxed">Hello! I’m Akhil Renduchintala, a seasoned Senior/Lead Database Engineer currently based in Amsterdam,
+      Netherlands. With over nine years of rich experience under my belt, I specialize in database management,
+      cloud architecture, and process automation, ensuring that every project I touch runs seamlessly and
+      efficiently.</p>
+      <br>
+      <p class="text-lg leading-relaxed">From a young age, I was fascinated by the intricacies of data and how it powers our world. This passion
+        led me to pursue a Bachelor's degree in Computer Science from the Eluru College of Engineering &
+        Technology, where I honed my technical skills and prepared for a career that mixes innovation with
+        practical solutions.</p>
+      <br>
+      <p class="text-lg leading-relaxed">Professionally, I've had the privilege of working with some of the leading names across various sectors,
+        managing everything from massive server fleets to complex databases. At Mollie B.V in Amsterdam, I
+        currently manage a sophisticated banking database infrastructure with over 30 services spanning
+        development, staging, and production environments. My role involves not only the maintenance of these
+        critical systems but also innovating through automation, using tools like Ansible and Terraform to
+        streamline processes</p>
+      <br>
+      <p class="text-lg leading-relaxed">I am not only a tech enthusiast but also a passionate cook and an avid badminton player, which I believe
+        play a significant role in maintaining my work-life balance, allowing me to bring a fresh perspective
+        and renewed energy to my professional endeavors.</p>
+      <br>
+      <p class="text-lg leading-relaxed">I'm excited about the potential of data to shape the future and am always looking for new challenges
+        that push the boundaries of what can be achieved. If you're looking for someone who blends deep
+        technical expertise with strategic insight and a proven track record of delivering results, let's
+        connect!</p>
+  </section>
+
+<!-- Skills -->  
+
+  <section id="skills" class="py-16 px-8 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-8 text-center">Skills</h2>
+  
+    <!-- Databases -->
+    <div class="flex flex-col md:flex-row items-start mb-12">
+      <div class="w-full md:w-1/4 text-2xl font-semibold mb-4 md:mb-0 text-center md:text-left">Databases</div>
+      <div class="flex flex-wrap gap-4 justify-center md:justify-start w-full md:w-3/4">
+        <div class="skill-card">
+          <img src="assets/icons/MySQL.svg" alt="MySQL" class="h-12 w-12">
+          <span>MySQL</span>
+        </div>
+        <div class="skill-card">
+          <img src="assets/icons/MariaDB.svg" alt="MariaDB" class="h-12 w-12">
+          <span>MariaDB</span>
+        </div>
+        <div class="skill-card">
+          <img src="assets/icons/Redis.svg" alt="Redis" class="h-12 w-12">
+          <span>Redis</span>
+        </div>
+        <div class="skill-card">
+          <img src="assets/icons/AWS.svg" alt="RDS/Aurora" class="h-12 w-12">
+          <span>RDS/Aurora</span>
+        </div>        
+        <div class="skill-card learning-skill">
+          <img src="assets/icons/PostgresSQL.svg" alt="PostgreSQL" class="h-12 w-12">
+          <span>PostgreSQL</span>
+        </div>        
+      </div>
+    </div>
+  
+    <!-- Configuration Management -->
+    <div class="flex flex-col md:flex-row items-start mb-12">
+      <div class="w-full md:w-1/4 text-2xl font-semibold mb-4 md:mb-0 text-center md:text-left">Configuration Management</div>
+      <div class="flex flex-wrap gap-4 justify-center md:justify-start w-full md:w-3/4">
+        <div class="skill-card">
+          <img src="assets/icons/Ansible.svg" alt="Ansible" class="h-12 w-12">
+          <span>Ansible</span>
+        </div>
+        <div class="skill-card">
+          <img src="assets/icons/HashiCorp-Terraform.svg" alt="Terraform" class="h-12 w-12">
+          <span>Terraform</span>
+        </div>        
+      </div>
+    </div>
+
+    <!-- Programming -->
+    <div class="flex flex-col md:flex-row items-start mb-12">
+      <div class="w-full md:w-1/4 text-2xl font-semibold mb-4 md:mb-0 text-center md:text-left">Programming</div>
+      <div class="flex flex-wrap gap-4 justify-center md:justify-start w-full md:w-3/4">
+        <div class="skill-card">
+          <img src="assets/icons/Python.svg" alt="Python" class="h-12 w-12">
+          <span>Python</span>
+        </div>
+        <div class="skill-card">
+          <img src="assets/icons/Bash.svg" alt="Bash" class="h-12 w-12">
+          <span>Bash</span>
+        </div>
+        <div class="skill-card learning-skill">
+          <img src="assets/icons/Go.svg" alt="Go" class="h-12 w-12">
+          <span>Go</span>
+        </div>         
+      </div>
+    </div>
+
+    <!-- Cloud Platforms -->
+    <div class="flex flex-col md:flex-row items-start mb-12">
+      <div class="w-full md:w-1/4 text-2xl font-semibold mb-4 md:mb-0 text-center md:text-left">Cloud Platforms</div>
+      <div class="flex flex-wrap gap-4 justify-center md:justify-start w-full md:w-3/4">
+        <div class="skill-card">
+          <img src="assets/icons/AWS.svg" alt="AWS" class="h-12 w-12">
+          <span>AWS</span>
+        </div>
+        <div class="skill-card">
+          <img src="assets/icons/Google-Cloud.svg" alt="GCP" class="h-12 w-12">
+          <span>GCP</span>
+        </div>
+        <div class="skill-card learning-skill">
+          <img src="assets/icons/Digital-Ocean.svg" alt="DigitalOcean" class="h-12 w-12">
+          <span>Digital Ocean</span>
+        </div>         
+      </div>
+    </div>    
+
+
+    <!-- Containers -->
+    <div class="flex flex-col md:flex-row items-start mb-12">
+      <div class="w-full md:w-1/4 text-2xl font-semibold mb-4 md:mb-0 text-center md:text-left">Containerization</div>
+      <div class="flex flex-wrap gap-4 justify-center md:justify-start w-full md:w-3/4">
+        <div class="skill-card">
+          <img src="assets/icons/docker.svg" alt="Docker" class="h-12 w-12">
+          <span>Docker</span>
+        </div>
+        <div class="skill-card learning-skill">
+          <img src="assets/icons/kubernetes.svg" alt="Kubernetes" class="h-12 w-12">
+          <span>Kubernetes</span>
+        </div>        
+      </div>
+    </div>
+
+    <!-- Observability -->
+    <div class="flex flex-col md:flex-row items-start mb-12">
+      <div class="w-full md:w-1/4 text-2xl font-semibold mb-4 md:mb-0 text-center md:text-left">Observability</div>
+      <div class="flex flex-wrap gap-4 justify-center md:justify-start w-full md:w-3/4">
+        <div class="skill-card">
+          <img src="assets/icons/Prometheus.svg" alt="Prometheus" class="h-12 w-12">
+          <span>Prometheus</span>
+        </div>
+        <div class="skill-card">
+          <img src="assets/icons/Grafana.svg" alt="Grafana" class="h-12 w-12">
+          <span>Grafana</span>
+        </div>        
+      </div>
+    </div>    
+  
+  </section>
+
+
+<!-- Experience -->
+<section id="experience" class="py-16 px-8 max-w-4xl mx-auto">
+  <h2 class="text-3xl font-bold mb-8">Experience</h2>
+  <div class="space-y-8">
+    <div class="card p-6 bg-gray-100 dark:bg-gray-800 flex flex-col md:flex-row items-center gap-6">
+      <!-- Company Logo -->
+      <img src="assets/companies/mollie.jpeg" alt="Mollie" class="h-16 w-16 object-contain">
+      <!-- Company Info -->
+      <div>
+        <h3 class="text-xl font-semibold">Mollie</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Platform Engineer</p>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Oct 2023 - Present | Amsterdam, Netherlands</p>
+        <p class="mt-2">Managing Mollie's core banking database and corresponding products with 30+DB services ranging from Dev, Stag and Production.</p>
+        <p class="mt-2">Developed and maintained fully automated replication solution using Ansible and Terraform to reduce the manual job of spinning and provisioning instances on the GCP environment..</p>
+        <p class="mt-2">Developed Terraform module to spin-up existing regional databases to support multi-regional without downtime.</p>
+        <p class="mt-2">Automated Online-Schema changes and MySQL autofailover's end to end</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="space-y-8">
+    <div class="card p-6 bg-gray-100 dark:bg-gray-800 flex flex-col md:flex-row items-center gap-6">
+      <!-- Company Logo -->
+      <img src="assets/companies/workday.jpeg" alt="Workday" class="h-16 w-16 object-contain">
+      <!-- Company Info -->
+      <div>
+        <h3 class="text-xl font-semibold">Workday</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Site Reliability Engineer</p>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Jul 2022 - Oct 2023 | Dublin, Ireland</p>
+        <p class="mt-2">Managed Workday's 1000+fleet of Servers ranging from Dev, Sandbox PROD and DR servers.</p>
+        <p class="mt-2">Managed Petabytes of Data ranging on 1000+servers.</p>
+        <p class="mt-2">Developed customized monitoring and alerting mechanism to increase uptime of core services by 20% and reduced false-positive alerts by 50% within 3 months.</p>
+        <p class="mt-2">Have managed all cloud operations on AWS Aurora across the fleet.</p>
+        <p class="mt-2">Reduced overall AWS infrastructure costs by 38%.</p>
+        <p class="mt-2">Automated incident resolution with scripting languages such as Python & Bash.</p>
+      </div>
+    </div>
+  </div> 
+  <br>
+  <div class="space-y-8">
+    <div class="card p-6 bg-gray-100 dark:bg-gray-800 flex flex-col md:flex-row items-center gap-6">
+      <!-- Company Logo -->
+      <img src="assets/companies/flatexdegiro.jpeg" alt="FlatexDEGIRO" class="h-16 w-16 object-contain">
+      <!-- Company Info -->
+      <div>
+        <h3 class="text-xl font-semibold">FlatexDEGIRO</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Database Administrator</p>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Jul 2021 - May 2022 | Amsterdam, Netherlands</p>
+        <p class="mt-2">Managed the databases of one of the best Stock brokers in European Market.</p>
+        <p class="mt-2">Managed fleet of MySQL servers across different evnironments.</p>
+        <p class="mt-2">Involved and been part of re-design of entire Database Architecture.</p>
+        <p class="mt-2">Automated the deployment of regular tasks, using Ansible.</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="space-y-8">
+    <div class="card p-6 bg-gray-100 dark:bg-gray-800 flex flex-col md:flex-row items-center gap-6">
+      <!-- Company Logo -->
+      <img src="assets/companies/tradebyte.jpeg" alt="Tradebyte" class="h-16 w-16 object-contain">
+      <!-- Company Info -->
+      <div>
+        <h3 class="text-xl font-semibold">Tradebyte</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Database DevOPS Engineer</p>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Feb 2021 - Jun 2022 | Ansbach, Germany</p>
+        <p class="mt-2">Maintained Trabyte's marketplace MySQL database on the AWS cloud.</p>
+        <p class="mt-2">Managed fleet of MySQL servers across different evnironments.</p>
+        <p class="mt-2">Created pipeline to push MySQL binary logs data to ElasticSearch.</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="space-y-8">
+    <div class="card p-6 bg-gray-100 dark:bg-gray-800 flex flex-col md:flex-row items-center gap-6">
+      <!-- Company Logo -->
+      <img src="assets/companies/micron.jpeg" alt="Micron" class="h-16 w-16 object-contain">
+      <!-- Company Info -->
+      <div>
+        <h3 class="text-xl font-semibold">Micron</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Systems Engineer - IT MySQL</p>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Jan 2020 - Jan 2021 | Hyderabad, India</p>
+        <p class="mt-2">Administered and managed 50+ MySQL servers fleet.</p>
+        <p class="mt-2">Increased database performance by tuning MySQL configuration changes and database queries which helped in performance increase by 2x.</p>
+        <p class="mt-2">Ensure production data being replicated to all the nodes which are consistent using the Primary - Primary and Primary - Replica concepts.</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="space-y-8">
+    <div class="card p-6 bg-gray-100 dark:bg-gray-800 flex flex-col md:flex-row items-center gap-6">
+      <!-- Company Logo -->
+      <img src="assets/companies/ebutor.jpeg" alt="Ebutor" class="h-16 w-16 object-contain">
+      <!-- Company Info -->
+      <div>
+        <h3 class="text-xl font-semibold">Ebutor</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Lead Database Engineer</p>
+        <p class="text-sm text-gray-600 dark:text-gray-400">May 2017 - Jan 2020 | Hyderabad, India</p>
+        <p class="mt-2">Administered and managed 5X MySQL server including dev, QA, Prelive and Prod environment's which resides on AWS/DO Cloud.</p>
+        <p class="mt-2">Conducted workload assessments and devised new operational procedures and metrics.</p>
+        <p class="mt-2">Defined database management policies and procedures.</p>
+        <p class="mt-2">Implemented KPI Reports/Metrics by using the inbuilt stored procedures and views by reducing the 80% manual process.</p>
+      </div>
+    </div>
+  </div> 
+  <br>
+  <div class="space-y-8">
+    <div class="card p-6 bg-gray-100 dark:bg-gray-800 flex flex-col md:flex-row items-center gap-6">
+      <!-- Company Logo -->
+      <img src="assets/companies/timeinc.jpeg" alt="Time Inc" class="h-16 w-16 object-contain">
+      <!-- Company Info -->
+      <div>
+        <h3 class="text-xl font-semibold">Time Inc. India</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Database Administrator</p>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Oct 2016 - May 2017 | Bengaluru, India</p>
+        <p class="mt-2">Provisioned MySQL instances in clustered and non-clustered configurations of 20x servers.</p>
+        <p class="mt-2">Increased database performance by 2x by tuning the MySQL variables.</p>
+        <p class="mt-2">Design and implement high availability environments.</p>
+        <p class="mt-2">Deploying MySQL instances on AWS Cloud - RDS and Aurora.</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="space-y-8">
+    <div class="card p-6 bg-gray-100 dark:bg-gray-800 flex flex-col md:flex-row items-center gap-6">
+      <!-- Company Logo -->
+      <img src="assets/companies/alacriti.jpeg" alt="Alacriti" class="h-16 w-16 object-contain">
+      <!-- Company Info -->
+      <div>
+        <h3 class="text-xl font-semibold">Alacriti</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Database Developer</p>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Nov 2014 - Sep 2016 | Hyderabad, India</p>
+        <p class="mt-2">Developed and maintained installation, backup, maintenance and other database related scripts in dev, QA, sandbox and Production servers.</p>
+        <p class="mt-2">Tracked and monitored database usage for proper capacity planning.</p>
+        <p class="mt-2">Increased database performance by utilizing configuration changes, adding indexes and profiling.</p>
+        <p class="mt-2">Conduct and participate in Disaster Recovery exercises.</p>
+      </div>
+    </div>
+  </div>  
+</section>
+
+  
+<!-- Projects -->  
+<section id="projects" class="py-16 px-8 max-w-4xl mx-auto">
+  <h2 class="text-3xl font-bold mb-8">Projects</h2>
+  
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    
+    <!-- Project 1 -->
+    <div class="card p-6 bg-gray-100 dark:bg-gray-800 flex flex-col">
+      <h3 class="text-xl font-semibold mb-2">MySQL Autofailover Using ProxySQL and Orchestrator</h3>
+      <p class="text-sm">This automation ensures high availability for MySQL clusters by integrating ProxySQL and Orchestrator to handle failures seamlessly.</p>
+      <ul class="list-disc list-inside mt-2 text-sm">
+        <li><strong>ProxySQL:</strong> Monitors nodes and dynamically routes traffic.</li>
+        <li><strong>Orchestrator:</strong> Detects node failures and triggers recovery steps.</li>
+      </ul>
+      <p class="mt-2 text-sm"><strong>Languages Used:</strong> Bash Script, Python, Ansible</p>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="card p-6 bg-gray-100 dark:bg-gray-800 flex flex-col">
+      <h3 class="text-xl font-semibold mb-2">PT-OSC Automation</h3>
+      <p class="text-sm">Developed an automation tool for seamless schema changes using Percona Toolkit’s pt-online-schema-change utility.</p>
+      <ul class="list-disc list-inside mt-2 text-sm">
+        <li>Pre-checks: Node role, primary key presence, table size, triggers, FK constraints.</li>
+        <li>Execution with replica lag monitoring and MySQL status updates.</li>
+      </ul>
+      <p class="mt-2 text-sm"><strong>Languages Used:</strong> Python, SQL, Bash</p>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="card p-6 bg-gray-100 dark:bg-gray-800 flex flex-col">
+      <h3 class="text-xl font-semibold mb-2">PT-Archiver Automation</h3>
+      <p class="text-sm">Automation tool for archiving old data using Percona Toolkit’s pt-archiver utility.</p>
+      <ul class="list-disc list-inside mt-2 text-sm">
+        <li>Pre-checks: Primary key validation, table existence, FK constraints, replica lag monitoring.</li>
+      </ul>
+      <p class="mt-2 text-sm"><strong>Languages Used:</strong> Python, SQL, Bash</p>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="card p-6 bg-gray-100 dark:bg-gray-800 flex flex-col">
+      <h3 class="text-xl font-semibold mb-2">Multi-Region VM Databases in GCP</h3>
+      <p class="text-sm">Designed and automated multi-region MySQL deployments on Google Cloud Platform (GCP) using Terraform modules.</p>
+      <ul class="list-disc list-inside mt-2 text-sm">
+        <li>High availability, automated backups, secure VPC networking, and IAM integration.</li>
+      </ul>
+      <p class="mt-2 text-sm"><strong>Languages Used:</strong> Terraform</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Certifications -->
+<section id="certifications" class="py-16 px-8 max-w-4xl mx-auto">
+  <h2 class="text-3xl font-bold mb-8">Certifications</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+    <!-- Certification 1 -->
+    <a href="https://www.credly.com/badges/4f0063e4-7e5f-4ecc-8f1c-ca1763d506c1/public_url" target="_blank" class="cert-card card p-6 bg-gray-100 dark:bg-gray-800 flex items-center gap-4 hover:shadow-lg transition">
+      <img src="assets/certifications/aws_sa.png" alt="AWS Logo" class="h-12 w-12 object-contain">
+      <div>
+        <h3 class="text-xl font-semibold">AWS Certified Solutions Architect – Associate</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Amazon Web Services (AWS)</p>
+      </div>
+    </a>
+
+    <!-- Certification 2 -->
+    <a href="https://www.credly.com/badges/5d70d693-90b5-40d3-8b3e-ccd1752d6eb6/public_url" target="_blank" class="cert-card card p-6 bg-gray-100 dark:bg-gray-800 flex items-center gap-4 hover:shadow-lg transition">
+      <img src="assets/certifications/aws-cp.png" alt="CKA Logo" class="h-12 w-12 object-contain">
+      <div>
+        <h3 class="text-xl font-semibold">AWS Certified Cloud Practitioner</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Amazon Web Services (AWS)</p>
+      </div>
+    </a>
+
+      <!-- Certification 3 -->
+      <a href="https://certificates.platform.qa.com/c2cb4aca2c0ef631330c8213561910cb1a25aaf9.pdf" target="_blank" class="cert-card card p-6 bg-gray-100 dark:bg-gray-800 flex items-center gap-4 hover:shadow-lg transition">
+        <img src="assets/certifications/cloud_academy.png" alt="Cloud Academy" class="h-12 w-12 object-contain">
+        <div>
+          <h3 class="text-xl font-semibold">AWS Certified Database - Speciality</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Cloud Academy a QA Company</p>
+        </div>
+      </a>
+
+      <!-- Certification 4 -->
+      <a href="https://www.credly.com/badges/acef28ad-ace9-4afc-ab5d-487e2b2b0aca?source=linked_in_profile" target="_blank" class="cert-card card p-6 bg-gray-100 dark:bg-gray-800 flex items-center gap-4 hover:shadow-lg transition">
+        <img src="assets/certifications/pcep.png" alt="PCEP" class="h-12 w-12 object-contain">
+        <div>
+          <h3 class="text-xl font-semibold">PCEP – Certified Entry-Level Python Programmer</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Python Institute</p>
+        </div>
+      </a>      
+    <!-- Add more certifications similarly -->
+
+  </div>
+</section>
+
+
+
+<!-- Contact -->  
+<section id="contact" class="py-16 px-8 max-w-2xl mx-auto">
+  <h2 class="text-3xl font-bold mb-8 text-center">Contact Me</h2>
+
+  <form action="https://formspree.io/f/xpwpkgjq" method="POST" class="space-y-4">
+    <input type="text" name="name" placeholder="Your Name" required class="w-full p-3 rounded border dark:bg-gray-700">
+    <input type="email" name="email" placeholder="Your Email" required class="w-full p-3 rounded border dark:bg-gray-700">
+    <textarea name="message" placeholder="Your Message" required class="w-full p-3 rounded border dark:bg-gray-700"></textarea>
+    <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white p-3 rounded">Send Message</button>
+  </form>
+</section>
+
+
+  <footer class="py-6 text-center text-sm">
+    © 2025 Akhil Renduchintala. All rights reserved.
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    console.log('Theme toggle button found:', toggle);
+
+    toggle.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+      if (document.documentElement.classList.contains('dark')) {
+        console.log('Dark mode enabled');
+      } else {
+        console.log('Light mode enabled');
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      console.log('Document fully loaded and parsed');
+    });
+  </script>
+
+  <script>
+    const form = document.querySelector("form");
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      });
+      if (response.ok) {
+        alert("Thank you for contacting me! 🚀");
+        form.reset();
+      } else {
+        alert("Oops! There was a problem. Please try again.");
+      }
+    });
+  </script>
+
+</body>
+</html>
