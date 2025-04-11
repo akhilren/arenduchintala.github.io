@@ -1,11 +1,11 @@
-
 /* Global Styles */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   scroll-behavior: smooth;
   background: linear-gradient(to right, #f9fafb, #e5e7eb);
+  color: #111827; /* Default text color */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -75,6 +75,7 @@ button:hover {
 
 .dark body {
   background: linear-gradient(to right, #1f2937, #111827);
+  color: white; /* Dark text color */
 }
 
 .dark nav {
@@ -134,3 +135,29 @@ input:focus, textarea:focus {
   opacity: 0.7; /* slightly faded */
 }
 
+.skill-card {
+  width: 120px; /* instead of 100px */
+  height: 120px; /* instead of 120px */
+}
+
+/* Add Dark Mode Styles */
+.dark section, .dark h2, .dark h3, .dark p, .dark li, .dark a, .dark span {
+  color: white;
+}
+
+.dark .card {
+  background-color: #374151;
+}
+
+.dark .skill-card {
+  background-color: #374151;
+  border-color: #4b5563;
+}
+
+.dark .learning-skill {
+  border-color: #4b5563;
+}
+
+.dark body{
+    color: white;
+}
